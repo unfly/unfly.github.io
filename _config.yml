@@ -1,74 +1,18 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
 title: 安源室內設計事務所
-header-img: "img/autumn2.jpg"
-tagline: "吉光片羽"
-description: "心之所向 居之所在"
-baseurl: ""
-url: "http://anyuandesign.com"
-#url: "http://localhost:4000"
-
-# About/contact
-owner:
-  name: "unfly"
-  email: unflys@gmail.com
-  bio: "心之所向 居之所在bio"
-
-# Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
-favicon: img/favicon.ico
-
-douban_username: unfly
+email: unflys@gmail.com
+description: > # 心之所向，居之所在.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://anyuandesign.com" # the base hostname & protocol for your site
 twitter_username: unfly
-github_username: unfly
-facebook_username: unfly
-weibo_username: unfly
-zhihu_username: unfly
+github_username:  unfly
 
 # Build settings
-# use Github Flavored Markdown !important
-# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
-kramdown:
-  input: GFM
-highlighter: rouge
-
-gems:
-- jekyll-gallery-generator
-- jekyll-paginate
-permalink: none
-paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
-
-# Title
-
-
-# Defaults for posts
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "unfly"
-      header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
-
-
-# Comments
-comments :
-  provider : duoshuo
-  duoshuo :
-    short_name : unfly
-  disqus :
-      short_name : unfly
-
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-66863061-1
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in footer navigation
