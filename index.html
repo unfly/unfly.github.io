@@ -2,4 +2,19 @@
 layout: default
 ---
 
-<h1>default</h1>
+<div class="jumbotron">
+  <h1>Jumbotron</h1>
+</div><!-- end jumbotron -->
+
+<article class="container">
+  <ul class="row list-unstyled">
+    {% for post in site.posts %}
+    <li class="col-md-4">
+      <a href="{{ post.url }}">
+        <p>{{ post.title }}</p>
+        <p>{{ post.excerpt }}</p>
+        </a>
+    </li>
+    {% endfor %}
+  </ul>
+</article>

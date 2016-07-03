@@ -1,0 +1,8 @@
+/*导航条置顶，须设置padding*/
+body {
+  padding-top: 51px;
+}
+
+img {
+  width: 100%;
+}
