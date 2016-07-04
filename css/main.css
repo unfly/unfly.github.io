@@ -6,3 +6,24 @@ body {
 img {
   width: 100%;
 }
+
+ul img {
+  height: 250px;
+}
+
+.jumbotron {
+  color: #ccc;
+  padding-top: 20px;
+}
+
+#logo {
+  width: 24px;
+  display: inline-block;
+}
+
+/* temp */
+.logo-lg {
+  width: 120px;
+  background-color: rgba(93, 238, 166, 0.3);
+  padding: 20px;
+}

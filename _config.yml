@@ -14,5 +14,7 @@ url: "http://anyuandesign.com" # the base hostname & protocol for your site
 twitter_username: unfly
 github_username:  unfly
 
+logo-url: img/logo.png
+
 # Build settings
 markdown: kramdown

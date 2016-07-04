@@ -5,7 +5,9 @@
     <div class="container">
 
       <div class="navbar-header">
-        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+          <img id="logo" src="{{ site.baseurl }}/img/logo.png"></img>
+          {{ site.title }}</a>
       </div>
 
       <div id="navbar" class="navbar-collapse collapse">
@@ -22,3 +24,12 @@
     </div><!-- end container -->
   </nav>
 </header>
+
+<div class="jumbotron" style="background-image: url('{{ site.baseurl }}/img/home-bg.jpg')">
+  <div class="container">
+    <img class="logo-lg" src="{{ site.baseurl }}/img/logo.png"></img>
+    <h1>AN YUAN DESIGN</h1>
+    <p>[ 安源设计事务所 ] 欢迎您!</p>
+    <small>－2016/07/04</small>
+  </div>
+</div><!-- end jumbotron -->
